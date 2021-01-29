@@ -1,7 +1,7 @@
 {
   "name": "nfc-library-electron",
   "productName": "IUT NFC Library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "IUT NFC Library driver software",
   "repository": {
     "url": "https://github.com/awesomelike/nfc-library-electron"
@@ -23,8 +23,7 @@
   "config": {
     "forge": {
       "packagerConfig": {
-        "icon": "./src/assets/icons/Icon.ico",
-        "asar": true
+        "icon": "./src/assets/icons/Icon.ico"
       },
       "makers": [
         {
@@ -76,7 +75,9 @@
                   "name": "main_window"
                 }
               ]
-            }
+            },
+            "port": "3010",
+            "loggerPort": "9002"
           }
         ]
       ]
