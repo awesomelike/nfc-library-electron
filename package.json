@@ -1,7 +1,7 @@
 {
   "name": "nfc-library-electron",
   "productName": "IUT NFC Library",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "IUT NFC Library driver software",
   "repository": {
     "url": "https://github.com/awesomelike/nfc-library-electron"
